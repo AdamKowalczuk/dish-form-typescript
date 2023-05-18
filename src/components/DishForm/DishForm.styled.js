@@ -15,6 +15,12 @@ const FormWrapper = styled.div`
     border-radius: 4px;
     min-width: 400px;
   }
+  @media only screen and (max-width: 600px) {
+    form {
+      min-width: auto;
+      width: 80%;
+    }
+  }
 `;
 
 const Header = styled.h2`

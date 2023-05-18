@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/src/assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
 html{
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 600;
 }
